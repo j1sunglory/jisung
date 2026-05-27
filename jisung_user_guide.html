@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal User Guide — Jisung Yoon</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #F7F6F2;
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    padding: 60px 24px 80px;
+    color: #1A1916;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 48px;
+  }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #1A1916;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  header p {
+    font-size: 15px;
+    color: #999990;
+    letter-spacing: 0.02em;
+  }
+
+  .divider {
+    height: 1.5px;
+    background: #E0DED6;
+    margin: 24px 0 48px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr; }
+    header h1 { font-size: 28px; }
+  }
+
+  .card {
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 28px 30px;
+    border: 1px solid #E8E6E0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.07);
+    transform: translateY(-2px);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .card-icon {
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 1px;
+  }
+
+  .card-titles { flex: 1; }
+
+  .card-title-ko {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2C2B27;
+    letter-spacing: 0.01em;
+    margin-bottom: 2px;
+  }
+
+  .card-title-en {
+    font-size: 11px;
+    color: #BBBBBB;
+    font-weight: 400;
+  }
+
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tag {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  .tag-teal   { background: #E1F5EE; color: #085041; }
+  .tag-purple { background: #EEEDFE; color: #3C3489; }
+  .tag-coral  { background: #FAECE7; color: #712B13; }
+  .tag-amber  { background: #FAEEDA; color: #633806; }
+  .tag-blue   { background: #E6F1FB; color: #0C447C; }
+  .tag-pink   { background: #FBEAF0; color: #72243E; }
+
+  .content-ko {
+    font-size: 13.5px;
+    color: #2C2B27;
+    line-height: 1.8;
+  }
+
+  .content-en {
+    font-size: 12px;
+    color: #888880;
+    line-height: 1.7;
+    border-left: 2px solid #E8E6E0;
+    padding-left: 12px;
+    font-style: italic;
+  }
+
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+    color: #CCCCCC;
+    letter-spacing: 0.03em;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Personal User Guide</h1>
+    <h1 style="color:#888880; font-size:28px;">Jisung Yoon</h1>
+  </header>
+  <div class="divider"></div>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">☀️</span>
+        <div class="card-titles">
+          <div class="card-title-ko">내가 좋아하는 업무 환경</div>
+          <div class="card-title-en">Conditions I like to work in</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-teal">Autonomy</span>
+        <span class="tag tag-teal">Context-first</span>
+        <span class="tag tag-teal">Clear goal</span>
+        <span class="tag tag-teal">Async-friendly</span>
+      </div>
+      <p class="content-ko">큰 그림과 맥락이 먼저 공유되는 환경에서 가장 잘 일합니다. 방법론보다 목표가 명확하게 주어질 때, 스스로 방법을 찾아 실행하는 것을 선호합니다. 딥워크가 필요한 작업은 집중 시간을 따로 확보하고, 소통은 비동기로도 충분히 원활하게 할 수 있습니다.</p>
+      <p class="content-en">I work best when context and the big picture are shared upfront. I thrive with clear goals rather than prescriptive methods — I prefer figuring out how to get there myself. I protect focused work blocks for deep tasks and communicate effectively async across time zones.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">💬</span>
+        <div class="card-titles">
+          <div class="card-title-ko">나와 소통하는 가장 좋은 방법</div>
+          <div class="card-title-en">The best ways to communicate with me</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-purple">Slack (Async)</span>
+        <span class="tag tag-purple">BLUF</span>
+        <span class="tag tag-purple">Docs over Meetings</span>
+        <span class="tag tag-purple">KO · EN · JP</span>
+      </div>
+      <p class="content-ko">요점을 먼저 말하고 배경을 뒤에 붙여주세요. 긴 미팅보다 잘 정리된 Slack 메시지나 문서가 저한테는 더 효과적입니다. 빠른 결정이 필요한 경우엔 짧게 동기식 콜도 좋습니다. 한국어·영어·일본어 모두 편합니다.</p>
+      <p class="content-en">Lead with the point, then context. A well-structured Slack message or doc works better for me than a long meeting. For quick decisions, a short sync call is fine. I'm equally comfortable in Korean, English, or Japanese.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">🎯</span>
+        <div class="card-titles">
+          <div class="card-title-ko">피드백을 받고 싶은 방식</div>
+          <div class="card-title-en">The ways I like to receive feedback</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-coral">Direct</span>
+        <span class="tag tag-coral">Specific</span>
+        <span class="tag tag-coral">Timely</span>
+      </div>
+      <p class="content-ko">돌려 말하지 않아도 됩니다. 구체적인 상황이나 사례를 기반으로 직접적으로 전달해주세요. 칭찬과 개선점을 균형 있게 주는 것보다, 개선이 필요할 때 바로 말해주는 게 저한텐 더 도움이 됩니다. 피드백은 개인적인 공격이 아니라 성장의 자료로 받아들입니다.</p>
+      <p class="content-en">No need to soften it. Be direct and specific — reference actual situations. I appreciate timely feedback over delayed, polished delivery. I don't take feedback personally; I take it as data to grow from.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">🏆</span>
+        <div class="card-titles">
+          <div class="card-title-ko">내가 생각하는 성공</div>
+          <div class="card-title-en">How I view success</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-amber">Impact</span>
+        <span class="tag tag-amber">Trust-building</span>
+        <span class="tag tag-amber">Growth arc</span>
+      </div>
+      <p class="content-ko">숫자 달성도 중요하지만, 그것보다 클라이언트와 동료에게 신뢰를 얻고 있는지를 더 중요하게 봅니다. 단기 결과보다 장기적으로 영향력 있는 방향으로 일을 키워나가는 것, 그리고 내가 관여한 일이 조직과 시장에 실제로 의미 있는 변화를 만들어냈는지가 저한테 성공의 기준입니다.</p>
+      <p class="content-en">Numbers matter, but I measure success more by earned trust — from clients and colleagues. Success means creating work that has real impact on the business and market, with a trajectory that compounds over time, not just hitting short-term metrics.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">✍️</span>
+        <div class="card-titles">
+          <div class="card-title-ko">내 소통 방식</div>
+          <div class="card-title-en">How I communicate</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-teal">Structured</span>
+        <span class="tag tag-teal">Data-backed</span>
+        <span class="tag tag-teal">Context-aware</span>
+      </div>
+      <p class="content-ko">생각을 정리한 뒤 말하는 편이라, 즉흥적인 대화보다 사전에 준비된 소통에서 더 명확하게 표현합니다. 주장에는 근거를 함께 전달하고, 상대방의 배경과 맥락에 맞게 메시지를 조율합니다. 불필요한 수식보다 핵심을 간결하게 전달하는 것을 지향합니다.</p>
+      <p class="content-en">I think before I speak — I'm clearer in written or prepared communication than off-the-cuff. I back up opinions with evidence and calibrate my message to the audience. I aim for concise, signal-dense communication over polished but verbose.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">⚠️</span>
+        <div class="card-titles">
+          <div class="card-title-ko">같이 일하다 답답할 수 있는 점</div>
+          <div class="card-title-en">Things I do that may frustrate you</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-coral">Perfectionist & Detail-oriented</span>
+        <span class="tag tag-coral">Slow impromptu replies</span>
+        <span class="tag tag-coral">Context before conclusion</span>
+      </div>
+      <p class="content-ko">완벽주의와 디테일을 중시하는 성향이 강해 설명이 길어질 때가 있습니다. 판단과 진전에 있어 요점만큼이나 맥락을 중요하게 생각하는 만큼, 간혹 두괄식보다 배경 공유가 먼저 나올 때도 있습니다. "결론만 먼저"라고 말해줘도 괜찮습니다.</p>
+      <p class="content-en">My perfectionist and detail-oriented tendencies can make explanations run long. I value context as much as the bottom line — so I sometimes lead with background before the conclusion. Feel free to nudge me with "bottom line first" anytime.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">😰</span>
+        <div class="card-titles">
+          <div class="card-title-ko">내가 스트레스받을 때</div>
+          <div class="card-title-en">This is when I'm stressed</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-blue">Unexplained shifts</span>
+        <span class="tag tag-blue">No clear criteria</span>
+        <span class="tag tag-blue">Unclear expectations</span>
+      </div>
+      <p class="content-ko">이유 설명 없이 우선순위나 방향이 갑자기 바뀔 때 가장 힘듭니다. 잘하고 있는 건지 아닌지를 판단할 기준 자체가 없을 때도 스트레스를 받습니다 — 열심히 하고 싶은데 어디를 향해 뛰어야 할지 모르는 느낌이랄까요. 이럴 때 저는 말수가 줄어들거나 응답 속도가 느려질 수 있는데, 의욕이 없는 게 아니라 정리 중인 겁니다. 그럴 때 "지금 뭐가 제일 급해?" 하고 물어봐주시면 도움이 됩니다.</p>
+      <p class="content-en">I struggle most when priorities shift suddenly without explanation, or when there's no clear benchmark for what "good" looks like — I want to run hard, but I need to know which direction. I may go quieter or slower to respond during these times; that's not disengagement, it's me recalibrating. Asking "what's most urgent right now?" genuinely helps.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">🎉</span>
+        <div class="card-titles">
+          <div class="card-title-ko">나에 대한 재미있는 사실들</div>
+          <div class="card-title-en">Fun facts</div>
+        </div>
+      </div>
+      <div class="tag-row">
+        <span class="tag tag-pink">Trilingual</span>
+        <span class="tag tag-pink">Faith-driven</span>
+        <span class="tag tag-pink">Traveler</span>
+        <span class="tag tag-pink">Sports major</span>
+        <span class="tag tag-pink">ISTJ (INFJ)</span>
+      </div>
+      <p class="content-ko">한국어·영어·일본어를 실무에서 모두 씁니다 — 일본어는 현재 JLPT N2 준비 중입니다. 신앙이 삶의 중심에 있고, 그게 일하는 방식과 사람을 대하는 태도에도 영향을 줍니다. 대학에서 스포츠를 전공해서 운동을 꾸준히 즐기고, 새로운 도시와 음식 탐험도 좋아합니다. ISTJ(혹은 INFJ)라는 말을 자주 듣지만, 운동장에서 만나면 꽤 외향적인 사람이라는 걸 알게 됩니다.</p>
+      <p class="content-en">I actively work in Korean, English, and Japanese — currently studying for JLPT N2. Faith is central to who I am and shapes how I work and treat people. I majored in sports science and genuinely enjoy staying active — exercise is part of my routine, not a resolution. I test as ISTJ (sometimes INFJ), but catch me on a court or field and you'll see a very different side.</p>
+    </div>
+
+  </div>
+
+  <footer>Jisung Yoon · Personal User Guide</footer>
+
+</div>
+</body>
+</html>
